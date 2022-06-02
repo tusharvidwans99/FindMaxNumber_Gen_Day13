@@ -8,7 +8,7 @@
             MaxNumber maxNumber = new MaxNumber();
             Console.WriteLine(maxNumber.MaxNumberIs(99, 100, 101));
             Console.WriteLine(maxNumber.MaxNumberIs(99.5, 99.3, 34.3));
-
+            Console.WriteLine(maxNumber.MaxNumberIs("22","35","74"));
         }
     }
 }
